@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Work+Sans:ital,wght@0,300;0,700;1,300&display=swap');
-html{
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: "Lato", sans-serif;
+    background-color: rgb(231, 227, 191);
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: 300;
@@ -13,14 +13,14 @@ h1,h2,h3,h4,h5,h6{
     box-shadow: 0 0 5px rgb(136, 219, 140);
 }
 
-
-.heading{
-    font-size: 62px; 
-    font-family: 'Amatic SC', cursive;
+.heading {
+    font-weight: 400;
+    font-size: 55px;
 }
 
+
 a{
-    text-decoration:none;
+    text-decoration: none;
 }
 #logo{
     width: 100px;
@@ -81,7 +81,7 @@ div img{
 
 .right-top{
     border-radius: 10px;
-    border:1px solid rgb(41, 41, 41);
+    border:2px solid rgb(41, 41, 41);
     height:500px;
 }
 
@@ -93,8 +93,8 @@ ul{
 .steps-container{   
     margin-top:20px;
     border-radius: 10px;
-    border:1px solid rgb(71, 71, 71);
-    height: 987px;
+    border:2px solid rgb(71, 71, 71);
+    height: 800px;
 
 }
 
@@ -102,10 +102,11 @@ ul{
     border-radius: 10px;
     background-color: rgb(240, 236, 230);
     padding:20px;
-    flex-grow: 3;
+    flex-grow: 0.5;
 }
 
 .right-top,
 .steps-container{
     padding:0 20px 0px 20px;
 }
+
